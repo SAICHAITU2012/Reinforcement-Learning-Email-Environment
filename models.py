@@ -134,6 +134,7 @@ class TrafficControlObservation(Observation):
     emergency_present: bool = False
     emergency_direction: Optional[Direction] = None
     vehicles_passed_total: int = 0
+    final_score: Optional[float] = None
     status_message: str = ""
 
 

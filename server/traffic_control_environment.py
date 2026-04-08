@@ -251,6 +251,7 @@ class TrafficControlEnvironment(Environment):
             emergency_present=metrics.emergency_vehicle_active,
             emergency_direction=metrics.emergency_vehicle_direction,
             vehicles_passed_total=self._state.total_vehicles_passed,
+            final_score=self._state.final_score,
             status_message=status_message,
             reward=reward,
             done=done,
